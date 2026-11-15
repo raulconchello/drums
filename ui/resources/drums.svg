@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Snare drum seen at an angle, with two crossed sticks. -->
+  <defs>
+    <linearGradient id="shell" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#6d3df5"/>
+      <stop offset="0.5" stop-color="#8f6bff"/>
+      <stop offset="1" stop-color="#5a2fd9"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 62 v26 c0 11 20.6 18 46 18 s46-7 46-18 V62 Z" fill="url(#shell)"/>
+  <path d="M18 88 c0 11 20.6 18 46 18 s46-7 46-18" fill="none" stroke="#d9d3ff" stroke-width="4"/>
+  <g stroke="#d9d3ff" stroke-width="3" stroke-linecap="round">
+    <line x1="30" y1="72" x2="30" y2="96"/>
+    <line x1="50" y1="76" x2="50" y2="102"/>
+    <line x1="78" y1="76" x2="78" y2="102"/>
+    <line x1="98" y1="72" x2="98" y2="96"/>
+  </g>
+  <ellipse cx="64" cy="62" rx="46" ry="18" fill="#f4f2ff" stroke="#d9d3ff" stroke-width="4"/>
+  <g stroke-linecap="round">
+    <line x1="22" y1="14" x2="70" y2="58" stroke="#e8b86a" stroke-width="7"/>
+    <line x1="106" y1="14" x2="58" y2="58" stroke="#e8b86a" stroke-width="7"/>
+    <circle cx="70" cy="58" r="5" fill="#f3d39b"/>
+    <circle cx="58" cy="58" r="5" fill="#f3d39b"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "id": "shuffle-4-4",
+  "title": "4/4 shuffle with triplets and toms (UI test fixture)",
+  "timeSignature": [4, 4],
+  "bars": 1,
+  "defaultBpm": 100,
+  "notes": [
+    { "instrument": "ride", "tick": 0 },   { "instrument": "ride", "tick": 320 },
+    { "instrument": "ride", "tick": 480 }, { "instrument": "ride", "tick": 800 },
+    { "instrument": "rideBell", "tick": 960 }, { "instrument": "ride", "tick": 1280 },
+    { "instrument": "tom1", "tick": 1440 }, { "instrument": "tom2", "tick": 1600 }, { "instrument": "tom3", "tick": 1760 },
+    { "instrument": "snare", "tick": 480 }, { "instrument": "snare", "tick": 1440 },
+    { "instrument": "kick", "tick": 0 }, { "instrument": "kick", "tick": 960 },
+    { "instrument": "hihatPedal", "tick": 480 }, { "instrument": "hihatPedal", "tick": 1440 }
+  ]
+}

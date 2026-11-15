@@ -1,0 +1,14 @@
+{
+  "comment": "e-drum MIDI note -> instrument. General MIDI defaults; refine with pad learn. The test capture showed toms on 41/43/45/48.",
+  "hihatPedalCC": 4,
+  "notes": {
+    "35": "kick", "36": "kick",
+    "38": "snare", "40": "snare", "37": "snareRim", "39": "snareRim",
+    "42": "hihatClosed", "22": "hihatClosed", "46": "hihatOpen", "26": "hihatOpen", "44": "hihatPedal",
+    "48": "tom1", "50": "tom1",
+    "45": "tom2", "47": "tom2",
+    "41": "tom3", "43": "tom3",
+    "49": "crash", "57": "crash", "55": "crash", "52": "crash",
+    "51": "ride", "59": "ride", "53": "rideBell"
+  }
+}

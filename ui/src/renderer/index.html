@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ws://127.0.0.1:* ws://localhost:*"
+    />
+    <title>Drums</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand"><span class="brand-mark"></span><span class="brand-text">Drums</span></div>
+        <div class="field exercise-field">
+          <span class="field-label">Exercise</span>
+          <select id="exercise-select" title="Exercise"></select>
+          <button id="open-exercise" class="icon-btn" title="Load an exercise file…">Open…</button>
+        </div>
+        <div class="field">
+          <span class="field-label">Kit</span>
+          <select id="kit-select" title="Drum kit"></select>
+        </div>
+        <div class="spacer"></div>
+        <button id="theme-btn" class="ghost-btn" title="Switch theme"></button>
+        <div id="conn" class="conn" data-status="connecting"><span class="conn-dot"></span><span class="conn-text">Connecting…</span></div>
+      </header>
+
+      <main class="main">
+        <section class="stage">
+          <div class="stage-head">
+            <div class="stage-title">
+              <h1 id="ex-title">—</h1>
+              <div id="ex-meta" class="ex-meta"></div>
+            </div>
+            <div class="stage-status">
+              <span id="rec-chip" class="chip rec-chip" hidden>● REC <span id="rec-time">0:00</span></span>
+              <span id="loop-chip" class="chip"></span>
+              <span id="transport-chip" class="chip"></span>
+            </div>
+          </div>
+          <div id="notation-wrap" class="notation-wrap">
+            <div id="notation" class="notation"></div>
+            <div id="countin" class="countin" hidden></div>
+            <div id="offline" class="offline" hidden></div>
+          </div>
+          <div class="legend" id="legend"></div>
+          <div class="lanes-wrap">
+            <canvas id="lanes"></canvas>
+          </div>
+          <div id="pads" class="pads"></div>
+        </section>
+
+        <section class="dock" id="dock"></section>
+      </main>
+    </div>
+    <div id="tooltip" class="tooltip" hidden></div>
+    <div id="toasts" class="toasts"></div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

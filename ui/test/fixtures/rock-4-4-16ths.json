@@ -1,0 +1,17 @@
+{
+  "id": "rock-4-4-16ths",
+  "title": "4/4 rock, 16th hi-hat (2 bars, UI test fixture)",
+  "timeSignature": [4, 4],
+  "bars": 2,
+  "defaultBpm": 90,
+  "gridTicks": 120,
+  "grid": {
+    "hihatClosed": "xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxxx|xxx.",
+    "hihatOpen":   "....|....|....|....|....|....|....|...x",
+    "snare":       "....|x...|....|x..g|....|x...|....|x...",
+    "kick":        "x...|....|x.x.|....|x..x|..x.|x...|...."
+  },
+  "notes": [
+    { "instrument": "crash", "tick": 0, "velocity": 124 }
+  ]
+}

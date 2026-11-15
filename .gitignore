@@ -1,0 +1,11 @@
+# builds
+engine/build/
+engine/core/build/
+ui/node_modules/
+ui/dist/
+ui/out/
+# large downloaded drum kits (fetched by kits/fetch-kits.sh)
+kits/*/
+!kits/README.md
+# recordings
+recordings/

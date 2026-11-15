@@ -1,0 +1,16 @@
+{
+  "id": "groove-12-8-bar23",
+  "title": "12/8 groove (bar 23)",
+  "timeSignature": [12, 8],
+  "ppq": 480,
+  "beatTicks": 720,
+  "subdivisionTicks": 240,
+  "bars": 1,
+  "defaultBpm": 60,
+  "gridTicks": 240,
+  "grid": {
+    "hihatClosed": "xxx|xxx|xxx|xxx",
+    "snare":       "...|.x.|x..|...",
+    "kick":        "x..|..x|...|..x"
+  }
+}
